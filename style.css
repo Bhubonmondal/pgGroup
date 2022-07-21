@@ -1,44 +1,61 @@
 *{
-    margin: 0%;
+	margin: 0%;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom, #05D6D9 20%, #F907FC 80%);
+	height:100vh; 
+	display:flex;             
+	place-items: center;
+	align-content: center;
+	justify-content: center;
+}
+
+.whitePage{   
+	display:flex;
+	flex-wrap: wrap;             
+	place-items: center;
+	align-content: center;
+	justify-content: center;      
+	border-radius: 1rem;
+	background-color: white;
+	width: 70%;
+	height: 60%;
+	box-shadow: 10px 10px 30px 1px rgba(0, 0, 0, 0.5);
+}
+form{
+	flex-direction: column;
+	display: flex;
+	width: 70%;	
+	margin-left: 5%;
+	font-family: cursive;
+}
+img{
+	border-radius: 100%;
+	box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.5);
+	width: 150px;
+	height: 145px;
+}
+input[type=text]{
+	outline: none;
+	height: 20px;
+	border-radius: 5rem;
+	border: 1px solid;
+}
+input[type=password]{
+	outline: none;
+	height: 20px;
+	border-radius: 5rem;
+	border: 1px solid;
+}
+input[type=button]{
+	outline: none;
+	font-family: cursive;
+	height: 30px;
+	font-size: 98%;
+	border-radius: 5rem;
+	border: 1px solid;
 }
 p{
-    color: #ccc;
-    font-size: 70px;
-    font-family: monospace;
-    text-align: center;
-    background-color: white;
-}
-a{
-    font-family: monospace;
-    font-size: 65px;
-    color: #000;
-    text-decoration:none;
-    padding: 1%;
-    padding-top: 1%;
-}
-a:hover{
-    border: 3px solid #000;
-}
-
-.head{
-    align-items:flex-end;
-    position: fixed;
-    width: 100%;
-    color: black;
-    background-color: #ccc;
-}
-
-.body{
-    width: 100%;
-    background-color: red;
-}
-
-.flexContainer{
-    display: flex;
-    flex-direction: row;
-}
-
-.flexContainer>p{
-    align-content: center;
-    align-items: center;
+	color: red;
 }
